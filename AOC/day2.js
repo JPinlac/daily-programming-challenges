@@ -1,4 +1,4 @@
-var data = require('./data')
+var data = require('./data');
 var input = data.d2.split(',');
 
 //Finds total wrapping paper needed
