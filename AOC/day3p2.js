@@ -1,8 +1,6 @@
 var data = require('./data');
 var input = data.d3.split('');
-// var input = ['^','v','^','v','^','v','^','v','^','v'];
-// var input = ['>'];
-// var input = ['^','>', 'v','<']
+
 var housesReceived = 1;
 var currentLocationSanta = new Coordinates(0,0);
 var currentLocationRobot = new Coordinates(0,0);
