@@ -11,7 +11,7 @@ do{
   concat = input + number;
   hash = md5(concat);
   number++;
-} while (hash.substring(0,4) !== '00000');
+} while (hash.substring(0,6) !== '000000');
 
-console.log(number--);
+console.log(number-1);
 console.log(hash);
