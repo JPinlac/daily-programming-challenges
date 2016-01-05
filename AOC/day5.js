@@ -15,8 +15,8 @@ console.log('part 1: '+countNice)
 
 
 var countNice2 = 0;
-var reDouble2 = /([a-z][a-z])[a-z]*\1/gi;
-var reSandwich = /([a-z])[a-z]\1/;
+var reDouble2 = /([a-z][a-z])[a-z]*\1/i;
+var reSandwich = /([a-z])[a-z]\1/i;
 
 for(var i = 0; i < input.length; i++){
   if (reDouble2.test(input[i]) && reSandwich.test(input[i])){
