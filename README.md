@@ -13,3 +13,5 @@ To run any of the AOC programs, just clone this repository and execute the progr
 12/31/2015 - Started day 4 of AOC. I found an interesting way to add vanilla html javascript libraries (ex. libraries you would include in script tags) to node. This was necassary to create md5 hashes for the puzzle. Unfortunately, this brute forcing is taking a really long time too...
 
 1/4/2016 - Happy New Years! Day 4 of AOC finished. The program took a long time because the substring I was comparing against wasn't the correct length. the Javascript subtring method is non-inclusive. Also I had a couple console logs in the loop to check output, too much of these caused a ``` FATAL ERROR: JS Allocation failed - process out of memory ``` Taking them out solved that issue. 
+
+1/5/2016 = Finished day 5 of AOC. Problem required regex which is always a fun time! Ran into a weird issue where I was getting less matched using a global flag. Still stumped on that one.
