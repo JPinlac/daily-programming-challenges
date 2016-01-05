@@ -11,7 +11,18 @@ for(var i = 0; i < input.length; i++){
     countNice++;
   }
 }
-console.log(input.length)
-console.log(countNice)
+console.log('part 1: '+countNice)
+
+
+var countNice2 = 0;
+var reDouble2 = /([a-z][a-z])[a-z]*\1/gi;
+var reSandwich = /([a-z])[a-z]\1/;
+
+for(var i = 0; i < input.length; i++){
+  if (reDouble2.test(input[i]) && reSandwich.test(input[i])){
+    countNice2++;
+  }
+}
+console.log('part 2: ' +countNice2)
 
 
